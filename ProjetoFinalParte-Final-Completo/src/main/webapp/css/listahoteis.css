@@ -1,0 +1,54 @@
+ul li {
+    list-style: none;
+}
+
+.container-superior {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.listahoteis {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.containerhotel {
+
+    text-align: center;
+}
+
+.hoteis {
+    background-color: rgb(236, 236, 236);
+    padding: 30px 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    box-shadow: -3px 3px 1px rgb(172, 170, 170);
+    
+}
+
+
+.titulo {
+    text-align: center;
+    font-size: 2.2em;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000000;
+   
+    margin: 5vh 0;
+    
+    background-color: rgb(236, 236, 236);
+    padding: 15px 15px;
+}
+
+.lista {
+    font-weight: bold;
+}
+
+.resultado {
+    letter-spacing: .5px;
+    font-style: italic;
+}
